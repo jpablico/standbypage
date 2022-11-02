@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body {
-	background: linear-gradient(-45deg, #FFB2E6, #D972FF, #8447FF, #8CFFDA, #FFFFE8);
+	background: linear-gradient(-45deg, #FFB2E6, #D972FF, #8447FF, #30baba, #FFFFE8);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
