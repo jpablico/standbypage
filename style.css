@@ -1,0 +1,47 @@
+/*
+    Title:
+    font-family: 'Exo', sans-serif;
+    Head: 
+    font-family: 'Exo 2', sans-serif;
+    Body:
+    font-family: 'Junge', serif;
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+	background: linear-gradient(-45deg, #FFB2E6, #D972FF, #8447FF, #8CFFDA, #FFFFE8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    place-items: center;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    place-items: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+.title {
+    font-family: 'Exo', sans-serif;
+}
+.head {
+    font-family: 'Exo 2', sans-serif;
+}
