@@ -60,3 +60,37 @@ a {
     color: #FFFFFF;
     text-decoration: none;
 }
+@media screen and (max-width: 428px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        place-items: center;
+        color: #FFFFFF;
+        margin: auto;
+    }
+    .title {
+        font-family: 'Exo', sans-serif;
+        margin: 0;
+        text-align: center;
+        font-size: 100%;
+    }
+    .head {
+        font-family: 'Exo 2', sans-serif;
+        max-width: 60vw;
+        text-align: center;
+        font-size: 80%;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        list-style-type: none;
+    }
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    } 
+}
